@@ -1,0 +1,36 @@
+.block {
+    width: 400px;
+    height: 600px;
+    border: 3px solid black;
+    position:absolute ;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.div1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    z-index: 3;
+}
+.div2 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    z-index: 7;
+    margin-left: 100px;
+}
+.div3 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 4;
+}
